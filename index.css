@@ -22,8 +22,7 @@ body {
 }
 
 img {
-	max-width: 100%;
-	max-height: 700px;
+	max-width: 80%;
 }
 
 video {
@@ -41,5 +40,8 @@ a {
 	
 }
 @media (max-width: 450px){
+	img {
+		max-width: 100%;
+	}
 	
 }
