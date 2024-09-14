@@ -1,0 +1,47 @@
+body {
+	-webkit-touch-callout:none; /* リンク長押しのポップアップを無効化 */
+	-webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
+
+	background-color: #000000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	weight: 100vh;
+	/*background-image: url(./gif/イカす背景.gif);*/
+}
+
+.img-wrap {
+	text-align: center;
+	margin: auto;
+	max-width: 90%;
+	max-height: 90%;
+}
+
+img {
+	max-width: 80%;
+}
+
+video {
+	width: 100%;
+	max-width: 400px;
+}
+
+a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+@media (max-width: 768px){
+	
+}
+@media (max-width: 450px){
+	img {
+		max-width: 100%;
+	}
+	
+}
